@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Cadastro de pessoas</h1>
+        <form class="form js-form">
+            <label for="name" class="container-form">
+                Nome
+                <input class="form-field js-field" id="name" maxlength="120"  name="name" required type="text">
+                <p id="aviso-nome" class="aviso"></p>
+            </label>
+            <label for="birth-date" class="container-form">
+                Data de Nascimento
+                <input class="form-field js-field" id="birth-date" name="birth-date" required type="date">
+                <p id="aviso-data" class="aviso"></p>
+            </label>
+            <button class="botao" type="submit">Salvar</button>
+        </form>
+    </main>
+    <section class="container-tabela">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>data de nascimento</th>
+                </tr>
+            </thead>
+            <tbody class="container-info">
+              <tr>
+                <td>
+                    <button class="botao-editar " id="editar-nome"><img src="./imagem/circulo-de-caneta.png" alt=""></button>
+                </td>
+                <td>
+                    <button class="botao-editar " id="editar-data"><img src="./imagem/circulo-de-caneta.png" alt=""></button>
+                </td>
+              </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    padding: 25px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-field{
+    height: 30px;
+    border-radius: 8px;
+}
+.botao{
+    text-decoration: none;
+    height: 30px;
+    border-radius: 8px;
+}
+.aviso{
+    font-size: 14px;
+    color: red;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+.container-tabela{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.botao-editar{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.invisivel{
+    display: none;
+}
